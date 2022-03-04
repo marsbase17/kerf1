@@ -1,5 +1,5 @@
 #include "kerf.h"
-
+#include <sys/sysmacros.h>
 //assert: writes are 8-byte aligned (2^{m=3})
 //assert: mapping is always at least as big as file, except maybe during expansion
 
